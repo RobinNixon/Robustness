@@ -8,6 +8,8 @@ We present a unified framework for understanding robustness in discrete dynamica
 
 This orthogonality explains apparent paradoxes (e.g., why Rule 110 is Turing-complete but not life-like) and yields actionable design principles for engineering robust dynamical systems. We identify hidden state as the universal enabler across all four axes and basin of attraction as the organizing principle that determines survival, stability, and visibility.
 
+**For a general-audience introduction, see [Why Complexity Is Rare](ESSAY.md)** — an essay explaining what we learned from the simplest possible worlds.
+
 ## Key Result
 
 **Theorem (Orthogonal Robustness):** Discrete dynamical systems exhibit four independent axes of robustness:
@@ -62,6 +64,7 @@ Synthesis/
 │   └── REFERENCES.md             # Links to Papers 1-6
 ├── LICENSE
 ├── synthesis.pdf                 # Compiled paper
+├── ESSAY.md                      # General-audience introduction
 └── README.md                     # This file
 ```
 
