@@ -165,4 +165,4 @@ And once that was found, stopping was the honest move.
 
 ---
 
-*Bit Dynamics Lab, 2026*
+*Robin Nixon et al, 2026*
