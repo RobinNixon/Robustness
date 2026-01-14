@@ -126,17 +126,17 @@ pdflatex synthesis.tex  # Second pass for references
 
 ## Research Series
 
-This paper synthesizes findings from the complete research series:
+This paper is part of a seven-paper research series exploring computation, self-organization, and robustness in discrete dynamical systems.
 
-| # | Paper | Key Contribution |
-|---|-------|------------------|
-| 1 | **UCT** | Five-bit threshold for universal computation |
-| 2 | **Stickiness** | Hidden state as mechanism for Control |
-| 3 | **Self-Maintenance** | 83.7% life-like classification under stickiness |
-| 4 | **Leakiness** | Two-axis predictive framework (R² = 0.96) |
-| 5 | **Invariants** | Basin criterion for survival under filtering |
-| 6 | **Anti-Resonance** | Carrier-period modulation of visibility |
-| **7** | **Synthesis (this paper)** | Orthogonal Robustness Framework |
+| # | Paper | Repository | Key Contribution |
+|---|-------|------------|------------------|
+| 1 | The Five-Bit Threshold | [UCT](https://github.com/RobinNixon/UCT) | Minimum complexity for universal computation |
+| 2 | Stickiness and Control | [Stickiness](https://github.com/RobinNixon/Stickiness) | Hidden state as mechanism for Control |
+| 3 | Self-Maintenance | [Self-Maintenance](https://github.com/RobinNixon/Self-Maintenance) | 83.7% of ECA rules are life-like under stickiness |
+| 4 | Substrate Leakiness | [Leakiness](https://github.com/RobinNixon/Leakiness) | Two-axis predictive framework (R² = 0.96) |
+| 5 | Structural Invariants | [Invariants](https://github.com/RobinNixon/Invariants) | Basin criterion for survival under filtering |
+| 6 | Anti-Resonance | [Anti-Resonance](https://github.com/RobinNixon/Anti-Resonance) | Carrier-period modulation of visibility |
+| **7** | **Orthogonal Robustness** | **[Robustness](https://github.com/RobinNixon/Robustness)** | Unified framework: four independent axes |
 
 ## Citation
 
