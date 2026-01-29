@@ -33,8 +33,8 @@ This orthogonality explains apparent paradoxes (e.g., why Rule 110 is Turing-com
 ```
 Synthesis/
 ├── paper/
-│   ├── synthesis.md              # Full paper (Markdown)
-│   └── synthesis.tex             # Full paper (LaTeX)
+│   ├── bit_dynamics_framework.md      # Full paper (Markdown)
+│   └── bit_dynamics_framework.tex     # Full paper (LaTeX)
 ├── figures/
 │   ├── fig1_framework_overview.png    # Hierarchical framework structure
 │   ├── fig2_orthogonality_matrix.png  # 2×2 orthogonality evidence
@@ -42,30 +42,30 @@ Synthesis/
 │   ├── fig4_paper_connections.png     # Paper dependency graph
 │   └── fig5_four_axis_space.png       # 4D characterization examples
 ├── theory/
-│   ├── INDEX.md                  # Theory file index
-│   ├── FOUR_AXES.md              # Definition of the four axes
-│   ├── ORTHOGONALITY_PROOFS.md   # Evidence for independence
-│   ├── HIDDEN_STATE_UNIFIER.md   # Hidden state as universal enabler
-│   └── BASIN_ORGANIZER.md        # Basin of attraction framework
+│   ├── INDEX.md                       # Theory file index
+│   ├── FOUR_AXES.md                   # Definition of the four axes
+│   ├── ORTHOGONALITY_PROOFS.md        # Evidence for independence
+│   ├── HIDDEN_STATE_UNIFIER.md        # Hidden state as universal enabler
+│   └── BASIN_ORGANIZER.md             # Basin of attraction framework
 ├── discussion/
-│   ├── INDEX.md                  # Discussion file index
-│   ├── DESIGN_PRINCIPLES.md      # Engineering applications
-│   ├── BIOLOGICAL_IMPLICATIONS.md # Predictions for living systems
-│   ├── FUTURE_WORK.md            # Open problems
-│   └── FAQ.md                    # Anticipated objections
+│   ├── INDEX.md                       # Discussion file index
+│   ├── DESIGN_PRINCIPLES.md           # Engineering applications
+│   ├── BIOLOGICAL_IMPLICATIONS.md     # Predictions for living systems
+│   ├── FUTURE_WORK.md                 # Open problems
+│   └── FAQ.md                         # Anticipated objections
 ├── supplementary/
-│   ├── paper_inventory.md        # Extracted claims from Papers 1-6
-│   ├── relationship_map.md       # Cross-paper connections
-│   └── reviewer_attacks.md       # Detailed defense preparation
+│   ├── paper_inventory.md             # Extracted claims from Papers 1-6
+│   ├── relationship_map.md            # Cross-paper connections
+│   └── reviewer_attacks.md            # Detailed defense preparation
 ├── code/
-│   └── generate_figures.py       # Figure generation script
+│   └── generate_figures.py            # Figure generation script
 ├── data/
-│   ├── PROVENANCE.md             # Source attribution for all materials
-│   └── REFERENCES.md             # Links to Papers 1-6
+│   ├── PROVENANCE.md                  # Source attribution for all materials
+│   └── REFERENCES.md                  # Links to Papers 1-6
 ├── LICENSE
-├── synthesis.pdf                 # Compiled paper
-├── ESSAY.md                      # General-audience introduction
-└── README.md                     # This file
+├── bit_dynamics_framework.pdf         # Compiled paper
+├── ESSAY.md                           # General-audience introduction
+└── README.md                          # This file
 ```
 
 ## Quick Start
@@ -83,8 +83,8 @@ python generate_figures.py
 ### Build Paper (LaTeX)
 ```bash
 cd paper
-pdflatex synthesis.tex
-pdflatex synthesis.tex  # Second pass for references
+pdflatex bit_dynamics_framework.tex
+pdflatex bit_dynamics_framework.tex  # Second pass for references
 ```
 
 ## The Four Axes
